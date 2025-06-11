@@ -595,6 +595,9 @@ All parameters are listed and explained on the mfapy documentation page.
 model.set_configuration(callbacklevel = 0) # A frequency level of callbacks
 model.set_configuration(ncpus = 4) #Number of CPUs used in parallel processing
 model.set_configuration(iteration_max = 10000) #Maximal number of iterations.
+# model.set_configuration(callbacklevel = 7)
+# model.set_configuration(grid_search_iterations = 3)  # odesolver = 'scipy'
+
 
 """
 ############################################################
